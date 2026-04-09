@@ -33,3 +33,16 @@ image img {
 
     object-fit: fill;
 }
+
+.para {
+    font: 100%/1.5 Arial, Helvetica, sans-serif;
+    background-color: lightgray ;
+    color: black;
+    line-height: 1.5;
+}
+
+#secondpara {
+    color: red; /* # used for id and . used for class */
+    border: 0.01cm solid goldenrod;
+    border-radius:10px;
+}    
