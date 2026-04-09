@@ -1,11 +1,7 @@
 p {
     color: black
 }
-#firstpara {
-    color: blue;
-    font: 100%/1.5 Arial, Helvetica, sans-serif;
-    background-color: lightgray ;
-}
+
 /* image {
     width: 100px;
     height: 100px;
@@ -18,31 +14,50 @@ image img {
     object-fit: fill;
 } */
 .image img {
-    width: 200px;
+    /* width: 200px;
     height: 100px;
     background-color: black;
-    object-fit: cover ;
+    object-fit: cover ; */
+    width : 400px;
+    height : 250px;
+    object-fit: fill;
 }
 
 .logo img {
-    width: 100px;
-    height: 100px;
-    position :absolute;
+    /* width: 100px;
+    height: 100px; */
+    /* position :absolute;
     top: 0;
     left: 0;
 
-    object-fit: fill;
+    object-fit: fill; */
+    margin: 20px;
 }
 
 .para {
     font: 100%/1.5 Arial, Helvetica, sans-serif;
-    background-color: lightgray ;
+    background-color:pink  ;
     color: black;
     line-height: 1.5;
 }
 
-#secondpara {
-    color: red; /* # used for id and . used for class */
-    border: 0.01cm solid goldenrod;
+#firstpara {
+    color: blue;
+    font: 100%/1.5 Arial, Helvetica, sans-serif;
+    background-color: yellow ;
+    border:2px black solid ;
     border-radius:10px;
+    width : 550px;
+    margin:30px;
+}
+#secondpara {
+    color:black; /* # used for id and . used for class */
+    /* border: 0.01cm solid goldenrod; */
+    /* border-radius:10px; */
+    /* r-top: 2px black solid ; */
+    border:2px black solid ;
+    border-radius:10px;
+    width: 550px;
+    margin:20px;
 }    
+
