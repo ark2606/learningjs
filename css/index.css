@@ -1,11 +1,12 @@
 p {
-    color: red;
+    color: black
 }
 #firstpara {
     color: blue;
     font: 100%/1.5 Arial, Helvetica, sans-serif;
+    background-color: lightgray ;
 }
-image {
+/* image {
     width: 100px;
     height: 100px;
     
@@ -13,5 +14,22 @@ image {
 image img {
     width: 100px;
     height: 100px;
+    background-color: black;
+    object-fit: fill;
+} */
+.image img {
+    width: 200px;
+    height: 100px;
+    background-color: black;
+    object-fit: cover ;
+}
+
+.logo img {
+    width: 100px;
+    height: 100px;
+    position :absolute;
+    top: 0;
+    left: 0;
+
     object-fit: fill;
 }
