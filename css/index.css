@@ -1,39 +1,6 @@
 p {
     color: black
 }
-
-/* image {
-    width: 100px;
-    height: 100px;
-    
-}
-image img {
-    width: 100px;
-    height: 100px;
-    background-color: black;
-    object-fit: fill;
-} */
-.image img {
-    /* width: 200px;
-    height: 100px;
-    background-color: black;
-    object-fit: cover ; */
-    width : 400px;
-    height : 250px;
-    object-fit: fill;
-}
-
-.logo img {
-    /* width: 100px;
-    height: 100px; */
-    /* position :absolute;
-    top: 0;
-    left: 0;
-
-    object-fit: fill; */
-    margin: 20px;
-}
-
 .para {
     font: 100%/1.5 Arial, Helvetica, sans-serif;
     background-color:pink  ;
@@ -41,7 +8,7 @@ image img {
     line-height: 1.5;
 }
 
-#firstpara {
+ /* #firstpara {
     color: blue;
     font: 100%/1.5 Arial, Helvetica, sans-serif;
     background-color: yellow ;
@@ -49,17 +16,17 @@ image img {
     border-radius:10px;
     width : 550px;
     margin:30px;
-}
-#secondpara {
-    color:black; /* # used for id and . used for class */
+} */
+/* #secondpara { */
+    /* color:black;  */
     /* border: 0.01cm solid goldenrod; */
     /* border-radius:10px; */
     /* r-top: 2px black solid ; */
-    border:2px black solid ;
-    border-radius:10px;
-    width: 550px;
-    margin:20px;
-}    
+    /* border:2px black solid ; */
+    /* border-radius:10px; */
+    /* width: 550px; */
+    /* margin:20px; */
+/* }      */
 /* div {
     border: 2px black solid ;
     margin : 20px;
@@ -68,7 +35,7 @@ image img {
 
 } */
 
-.box {
+/* .box {
     width : 100px;
     height : 100px;
     background-color: red;
@@ -76,13 +43,13 @@ image img {
     border:2px black solid;
     padding : 7px;
     font: white ;
-}
+} */
 
-*{
+/* *{
     box-sizing : border-box;
-}
+} */
 
-span {
+/* span {
     display:block;
     border:black solid 3px;
     width : 100px;
@@ -90,5 +57,31 @@ span {
     background-color: yellow;
     padding: 10px;
     
-    
+} */
+.logo {
+    width : 100px;
+    height : 100px;
+    position : absolute;
+    top : 0px;
+    left : 0px;
+    border : 2px black solid ;
+}
+header {
+    position : absolute ;
+    top : 300px;
+    background-color: aquamarine;
+    left : 0px;
+}
+.navigation {
+    position : absolute ;
+    left : 100px;
+    top:0px;
+    background-color: aqua;
+}
+
+.image {
+    width : 100px;
+    height : 100px;
+    position : absolute ;
+    top : 400px;
 }
