@@ -59,12 +59,13 @@ p {
     
 } */
 .logo {
-    width : 100px;
+    /* width : 100px;
     height : 100px;
     position : absolute;
     top : 0px;
-    left : 0px;
+    left : 0px; */
     border : 2px black solid ;
+    float: right;
 }
 header {
     position : absolute ;
@@ -80,8 +81,9 @@ header {
 }
 
 .image {
-    width : 100px;
+    /* width : 100px;
     height : 100px;
     position : absolute ;
-    top : 400px;
+    top : 400px; */
+    /* float : inherit; */
 }
