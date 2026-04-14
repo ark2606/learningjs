@@ -8,7 +8,27 @@
         .container{
             border : 2px black solid;
             display : flex;
-            flex-direction : row-reverse;
+            height : 500px;
+            /* flex-direction : row-reverse;
+             */
+             flex-direction: row;
+             /* justify-content : space-evenly;     */
+             /* justify-content : space-around; */
+             /* justify-content : space-between; */
+             /* justify-content : center ; */
+             /* justify-content : space-evenly;
+              */
+            /* align-items: center; */
+            /* align-content : start; */
+            
+             
+
+
+             /* flex-wrap: wrap-reverse; */
+             /* flex-wrap: no-wrap;
+              */
+              /* flex-wrap : wrap; */
+            /* flex-flow row-reverse wrap; */
             padding : 2px;  
             background-color  : beige
             
@@ -21,12 +41,18 @@
         }
         #box1{
             background-color: red;
+            order : -4;
+            /* flex-basis : 200px; */
+            align-self : center;
         }
         #box2{
             background-color: cyan;
+            order : 2;
+            align-self:flex-end;
         }
         #box3{
             background-color: lavender;
+            order : -1;
         }
         #box4{
             background-color: blue;
