@@ -74,10 +74,12 @@ header {
     left : 0px;
 }
 .navigation {
-    position : absolute ;
+    /* position : absolute ;
     left : 100px;
-    top:0px;
+    top:0px; */
     background-color: aqua;
+    float : left ;
+    clear : right ;
 }
 
 .image {
@@ -85,7 +87,7 @@ header {
     height : 100px;
     position : absolute ;
     top : 400px; */
-    float : inherit;
+    float : right;
     clear: right;
 }
 .paragraph{
@@ -95,3 +97,10 @@ header {
     clear : right;
     overflow: scroll;
 }
+.container {
+
+}
+#box1{
+    background-color: red;
+}
+ 
