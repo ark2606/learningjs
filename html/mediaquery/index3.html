@@ -6,18 +6,38 @@
     <title>Document</title>
 
     <style>
+
+        :root {
+            --primary-color:black; 
+            /* created custom variable
+            universal variable , can be used along any braces */
+        }
         .container{
+            display:flex;
+            justify-content : center;
+            align-items:center;
             background-color: aqua;
-            border: 2px solid black;
+            border: 2px solid var(--primary-color);
             width : 200px;
             height : 200px;
-            box-shadow: 8px 8px 15px 4px black;
+            box-shadow: 8px 8px 15px 4px black; 
+
+        /* box-shadow :  (x-offset) (y-offset) (blur radius) (spread radius)*/
+
         }
+
+        .text{
+            color: darkred;
+            font-size: 200%;
+            text-shadow : 2px 2px 3px grey;
+        }
+
+
     </style>
 </head>
 <body>
     <div class="container">
-        This is a box 
+        <div class="text">This is a box</div> 
     </div>
 </body>
 </html>
