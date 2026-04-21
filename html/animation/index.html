@@ -17,7 +17,7 @@
             
         } 
         .box{
-            width : 100px;
+            width : 400px;
             height : 100px;
             background-color: aqua;
             border : 2px black solid;
@@ -26,11 +26,11 @@
             animation-name : rightMovement ;
             
             animation-duration : 3s;
-            animation-iteration-count: 1;
+            animation-iteration-count: infinite;
             animation-delay: 0s;
-            animation-timing-function: cubic-bezier(.44,.35,.75,1);
-            animation-fill-mode: both;
-            /* animation-direction :alternate-reverse ; */
+            animation-timing-function: linear ;
+            animation-fill-mode: none;
+            animation-direction :alternate ;
         }
         
         @keyframes rightMovement {
@@ -40,7 +40,7 @@
             }
             to {
                 top : 0px;
-                left : 1400px;
+                left : 1100px;
             }
         }
         @keyframes leftMovement {
@@ -53,10 +53,24 @@
                 left : 1500px;
             }
         }
+
+        .circle{
+            width : 50px;
+            height : 50px;
+            border-radius: 50px;
+            background-color: darkred;
+            border : 2px black solid;
+            margin : 1px;
+            position : absolute ;
+            top : 750px;
+            left : 750px;
+
+        }
     </style>
 </head>
 <body>
     <div class="container">
+        <div class="circle"></div>
         <div class="box"></div>
     </div>
 
