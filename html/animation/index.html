@@ -10,10 +10,10 @@
             padding : 0px;
         }
         .container {
-            width : 1500px;
-            height : 1500px ;
+            width : 100vw;
+            height : 100vh ;
             background-color: beige;
-            border: 3px solid black;
+            /* border: 3px solid black; */
             position : relative;
         } 
         .box{
@@ -25,12 +25,18 @@
             position : relative ;
             animation-name : rightMovement ;
             
-            animation-duration : 3s;
+            animation-duration : 6s;
             animation-iteration-count: infinite;
             animation-delay: 0s;
             animation-timing-function: linear ;
             animation-fill-mode: none;
             animation-direction :alternate ;
+
+            transition : all 1s ease ;
+        }
+        .box:hover{
+            transform : scale(2,2);
+            
         }
         
         @keyframes rightMovement {
@@ -40,7 +46,7 @@
             }
             to {
                 top : 0px;
-                left : 1100px;
+                left : 100vw;
             }
         }
         
@@ -60,11 +66,12 @@
             transition-duration: 1ms;
             transition-delay : 0s;
             transition-timing-function: linear;
+            
         }
         .circle:hover {
             background-color: darkred;
-            border : 3px;
-                
+            border : none;
+
         }
     </style>
 </head>
