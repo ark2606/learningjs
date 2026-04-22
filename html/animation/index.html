@@ -14,7 +14,7 @@
             height : 1500px ;
             background-color: beige;
             border: 3px solid black;
-            
+            position : relative;
         } 
         .box{
             width : 400px;
@@ -43,35 +43,36 @@
                 left : 1100px;
             }
         }
-        @keyframes leftMovement {
-            from {
-                top : 0px;
-                left : 1500px;
-            }
-            to {
-                top : 0px;
-                left : 1500px;
-            }
-        }
+        
 
         .circle{
-            width : 50px;
-            height : 50px;
-            border-radius: 50px;
-            background-color: darkred;
+            width : 200px;
+            height : 200px;
+            border-radius: 100px;
+            background-color: lightcoral;
             border : 2px black solid;
             margin : 1px;
-            position : absolute ;
-            top : 750px;
-            left : 750px;
-
+            position: absolute;  /* instead of relative */
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            transition-property :all;
+            transition-duration: 1ms;
+            transition-delay : 0s;
+            transition-timing-function: linear;
+        }
+        .circle:hover {
+            background-color: darkred;
+            border : 3px;
+                
         }
     </style>
 </head>
 <body>
     <div class="container">
-        <div class="circle"></div>
         <div class="box"></div>
+        <div class="circle"></div>
+        
     </div>
 
 
